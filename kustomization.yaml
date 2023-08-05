@@ -1,0 +1,6 @@
+namespace: tailscale
+resources:
+- ns.yaml
+- ss.yaml
+- rbac.yaml
+- subnet-router.yaml

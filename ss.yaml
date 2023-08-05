@@ -1,0 +1,15 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: tailscale-auth
+  namespace: tailscale
+spec:
+  encryptedData:
+    TS_AUTHKEY: AgCtGrShTNeEDiMWTR+MXPSB6W5OAY2nKEUQXXeZWmWZU24+nrFVVdctQIVFIaIJ0YPQuFUaucb9O+/RnNb8MENCa3H6ukxYECWK1O4GWiWkX7TYX7k5mq5PnpVbDA9glAEr50qKo+smvBi+2PhUxVxZWbZLsKjnYKK6GsgAkF3TW+5LSHG4cMTarzcQFWrTrRBwiDEVX5l4VsQW7C8aOGkSKBwKKwISExEBqCENiaAqN8Oi5IV42khOoCZdG879t5HUbB51ur+fBRbzZ07uB71kBE6FqC6HoaoCrJ6cwN3rj+6RCwHrZyO7o/jtuVZZzTYbPt1zijn6VHWAZx+6Q50Wxtlx2r7EXux2Onut1cGB8SSikysIkvro1ofETSJ70medpIfvTnJQjjKGg8HPXlJlaRlpWHg4FzqKqHL4lOJd/VXeCROtd2JEclMR4q1hfBDidvmFfpPvcT9KfBeBWFxg/xe52NjU1FNM7S0iHsa+1qlJU28NJdfaVPM4rUz/lv3iHkhf4Zqw11U00nc1wUiJTjLCeoEAOZkzpWWaIyQ3BcxFJPHeTR0UIBUijpFzWDvOnlNUTatB0cEGPloQKPlvx2mPyNMJ9kTtFO4oh4TaCvJqjK1soihoNBAfBFA5TPImdw4kD5EPaEcyDcf8vibIcXgOl34aswstR1yMH88NaQYdQdyHrqUNBfQ9IqsmQijrbbLjNiWYOkkcnHNNinw5f99DpbLQFVV69LI5E+kjJZG43I9z5zxzr2EzdZSUB6slnx67KkOBtA==
+  template:
+    metadata:
+      creationTimestamp: null
+      name: tailscale-auth
+      namespace: tailscale
+
