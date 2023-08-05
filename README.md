@@ -4,6 +4,11 @@ to my "tail-net".
 
 This way I can reach pods and services with internal clusterIP (10.43.X.X) even from my dev laptop, without creating a NodePort or an Ingress.
 
+# TODO
+
+- [ ] right now cidr range is hardcoded 10.42.0.0/16 and 10.43.0.0/16 for pod and service.
+- [ ] create a helm chart to be able to configure
+
 # Usage
 
 ```
@@ -29,7 +34,10 @@ You can make it automatic by adding this to your ACL:
 
 ## tl;dr
 
-follow this doc: [https://tailscale.com/kb/1185/kubernetes/](https://tailscale.com/kb/1185/kubernetes/)
+The official docs is based on make and sed, which I replaced with a kustomized repo. 
+
+Follow this original doc: [https://tailscale.com/kb/1185/kubernetes/](https://tailscale.com/kb/1185/kubernetes/)
+
 
 ```bash
 svn co https://github.com/tailscale/tailscale/trunk/docs/k8s
